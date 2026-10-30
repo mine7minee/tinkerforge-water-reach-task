@@ -9,8 +9,8 @@ import time
 from tinkerforge.ip_connection import IPConnection
 from tinkerforge.bricklet_motion_detector import BrickletMotionDetector
 
-HOST = "10.0.0.1"
-PORT = 4223
+HOST = "XX.X.X.X"
+PORT = YYYY
 UID  = "XXXX"    # Replace with your Motion Detector Bricklet UID from Brick Viewer
 
 ipcon  = IPConnection()
