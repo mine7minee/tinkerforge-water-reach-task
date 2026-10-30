@@ -5,12 +5,12 @@ from tinkerforge.bricklet_piezo_speaker_v2 import BrickletPiezoSpeakerV2
 from tinkerforge.bricklet_industrial_quad_relay_v2 import BrickletIndustrialQuadRelayV2
 from tinkerforge.bricklet_multi_touch_v2 import BrickletMultiTouchV2
 
-HOST = "10.0.0.1"
-PORT = 4223
+HOST = "XX.X.X.X"
+PORT = YYYY
 
-UID_PIEZO = "24Gg"
-UID_RELAY = "2io5"
-UID_TOUCH = "LHs"
+UID_PIEZO = "XXXX"
+UID_RELAY = "XXXX"
+UID_TOUCH = "XXXX"
 
 ipcon = IPConnection()
 piezo = BrickletPiezoSpeakerV2(UID_PIEZO, ipcon)
