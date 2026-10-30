@@ -15,8 +15,8 @@ from tinkerforge.ip_connection import IPConnection
 from tinkerforge.bricklet_piezo_speaker_v2 import BrickletPiezoSpeakerV2
 from tinkerforge.bricklet_industrial_quad_relay_v2 import BrickletIndustrialQuadRelayV2
 
-HOST = "10.0.0.1"
-PORT = 4223
+HOST = "XX.X.X.X"
+PORT = YYYY
 
 UID_PIEZO = "XXXX"   # Replace with your Piezo Speaker UID from Brick Viewer
 UID_RELAY = "XXXX"   # Replace with your Quad Relay UID from Brick Viewer
